@@ -1,0 +1,58 @@
+.seventh, .eigth, .ninth, .tenth, .eleventh {
+    margin-left: 360px;
+}
+
+.seventh > .S, .eigth > .S, .ninth > .S, .tenth > .S, .eleventh > .S {
+    display: inline-block;
+}
+
+.seventh > .S > div, .eigth > .S > div, .ninth > .S > div, .tenth > .S > div, .eleventh > .S > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.seventh > .T, .eigth > .T, .ninth > .T, .tenth > .T, .eleventh > .T {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.seventh > .T > div, .eigth > .T > div, .ninth > .T > div, .tenth > .T > div, .eleventh > .T > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.seventh > .A, .eigth > .A, .ninth > .A, .tenth > .A, .eleventh > .A {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.seventh > .A > div, .eigth > .A > div, .ninth > .A > div, .tenth > .A > div, .eleventh > .A > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.seventh > .R, .eigth > .R, .ninth > .R, .tenth > .R, .eleventh > .R {
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.seventh > .R > div, .eigth > .R > div, .ninth > .R > div, .tenth > .R > div, .eleventh > .R > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}

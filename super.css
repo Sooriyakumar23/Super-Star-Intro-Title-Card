@@ -1,0 +1,113 @@
+body {
+    background-color: black;
+    margin-top: 30px;
+    text-shadow: #FFFFFF;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    margin-left: 300px;
+}
+
+.first > .S, .second > .S, .third > .S, .fourth > .S, .fifth > .S {
+    display: inline-block;
+}
+
+.first > .S > div, .second > .S > div, .third > .S > div, .fourth > .S > div, .fifth > .S > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.first > .U, .second > .U, .third > .U, .fourth > .U, .fifth > .U  {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.first > .U > div, .second > .U > div, .third > .U > div, .fourth > .U > div, .fifth > .U > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.first > .P, .second > .P, .third > .P, .fourth > .P, .fifth > .P {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.first > .P > div, .second > .P > div, .third > .P > div, .fourth > .P > div, .fifth > .P > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.first > .E, .second > .E, .third > .E, .fourth > .E, .fifth > .E {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.first > .E > div, .second > .E > div, .third > .E > div, .fourth > .E > div, .fifth > .E > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.first > .R, .second > .R, .third > .R, .fourth > .R, .fifth > .R {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.first > .R > div, .second > .R > div, .third > .R > div, .fourth > .R > div, .fifth > .R > div {
+    background-color: darkblue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#blank {
+    background-color: black;
+}
+
+button {
+    color: blue;
+    position: absolute;
+    top: 93%;
+	left: 45%;
+    width: 200px;
+    height: 50px;
+    transition-duration: 1s;
+}
+
+button:hover {
+    background-color: black;
+    color: blue;
+    transform: scale(1.4);
+}
+
+#bgm {
+    margin-top: 35%;
+}
+
+audio {
+    width: 100%;
+}
+
+.sixth {
+    color: gold;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 40px;
+}
